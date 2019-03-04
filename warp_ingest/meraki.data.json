@@ -1,0 +1,90 @@
+{
+  "version": "2.0",
+  "secret": "jogogo",
+  "type": "DevicesSeen",
+  "data": {
+    "apMac": "0c:8d:db:d9:2b:ae",
+    "apFloors": [
+      "SDC - Jean Talon - W18"
+    ],
+    "apTags": [],
+    "observations": [
+      {
+        "ipv4": null,
+        "location": null,
+        "seenTime": "2018-02-26T16:56:25Z",
+        "ssid": null,
+        "os": null,
+        "clientMac": "7c:c3:a1:9f:d1:b0",
+        "seenEpoch": 1519664185,
+        "rssi": 29,
+        "ipv6": null,
+        "manufacturer": null
+      },
+      {
+        "ipv4": "1.2.3.4",
+        "location": {
+          "lat": 45.53611033130495,
+          "lng": -73.61555852412198,
+          "unc": 49,
+          "x": [
+            223.63706379885522
+          ],
+          "y": [
+            210.35786302306798
+          ]
+        },
+        "seenTime": "2018-02-26T16:54:29Z",
+        "ssid": "ssid",
+        "os": "It's Linux!",
+        "clientMac": "20:ee:28:ba:cc:ba",
+        "seenEpoch": 1519664069,
+        "rssi": 16,
+        "ipv6": "fe80::580e:8968:ed5a:4d2b",
+        "manufacturer": "Apple"
+      },
+      {
+        "clientMac": "0c:48:85:ed:b6:9b",
+        "seenEpoch": 1519664213,
+        "rssi": 21
+      },
+      {
+        "ipv4": "/10.74.155.228",
+        "location": {
+          "lat": 45.5361465485295,
+          "lng": -73.61549047944713,
+          "unc": 29.172732948898517,
+          "x": [
+            229.8573325111979
+          ],
+          "y": [
+            207.9987123265415
+          ]
+        },
+        "seenTime": "2018-02-26T16:56:53Z",
+        "ssid": "#March?Jean-Talon/public very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid very long ssid",
+        "os": "iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS iOS",
+        "clientMac": "d4:a3:3d:b7:34:21",
+        "seenEpoch": 1519664213,
+        "rssi": 11,
+        "ipv6": "/fe80::580e:8968:ed5a:4d2b",
+        "manufacturer": "Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple Apple"
+      },
+      {
+        "ipv4": "NaN",
+        "location": {
+          "lat": 0,
+          "lng": null,
+          "unc": "NaN",
+          "x": [
+            "NaN"
+          ],
+          "y": "NaN"
+        },
+        "clientMac": "7c:2e:dd:c5:83:7c",
+        "seenEpoch": 1519664209,
+        "rssi": 13
+      }
+    ]
+  }
+}
