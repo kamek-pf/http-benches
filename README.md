@@ -1,22 +1,14 @@
 ## Hello world
-`wrk -t12 -c400 -d5s http://localhost:8080/hello/noob`
-Best out of 5:
+Best out of 5, bench command: \
+`wrk -t12 -c400 -d10s http://localhost:8080/hello/noob`
 
-Warp:
-Requests/sec: 340858.06
-Transfer/sec:     41.61MB
+Results for `Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz` (4 cores):
 
-Actix:
-Requests/sec: 333536.64
-Transfer/sec:     40.71MB
-
-Koa:
-Requests/sec:  29132.11
-Transfer/sec:      4.22MB
-
-Express:
-Requests/sec:  19182.19
-Transfer/sec:      3.93MB
-
-
-
+| Language      | Platform/Toolchain | Framework     | Requests/sec | Transfer/sec | Perf. | 
+|:-------------:|:-------------:|:------------:|:------------:|:------------:|---| 
+| Rust | rustc 1.33.0 | Warp | 298,769 | 36.47MB | 100% |
+| Rust | rustc 1.33.0 | Actix | 287,908 | 35.15MB | 96.3% |
+| JavaScript | Node 11.10.1 (PM2) | Koa | 82,880 | 12.01MB | 27.7% |
+| JavaScript | Node 11.10.1 (PM2) | Express | 56,349 | 11.55MB | 18.9% |
+| JavaScript | Node 11.10.1 | Koa | 30,016 | 4.35M | 10.0% |
+| JavaScript | Node 11.10.1 | Express | 17,756 | 3.64MB | 5.9% |

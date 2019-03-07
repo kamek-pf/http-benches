@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "koa_hello",
+            "name": "express_hello",
             "script": "src/index.js",
             "instances": "max",
             "exec_mode": "cluster"
