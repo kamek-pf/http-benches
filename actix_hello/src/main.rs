@@ -5,9 +5,8 @@ fn index(name: Path<String>) -> impl Responder {
 }
 
 fn main() {
-    server::new(
-        || App::new()
-            .route("/hello/{noob}", http::Method::GET, index))
-        .bind("127.0.0.1:8080").unwrap()
+    server::new(|| App::new().route("/hello/{noob}", http::Method::GET, index))
+        .bind("127.0.0.1:8080")
+        .unwrap()
         .run();
 }

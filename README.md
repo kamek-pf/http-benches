@@ -4,11 +4,11 @@ Best out of 5, bench command: \
 
 Results for `Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz` (4 cores):
 
-| Language      | Platform/Toolchain | Framework     | Requests/sec | Transfer/sec | Perf. | 
-|:-------------:|:-------------:|:------------:|:------------:|:------------:|---| 
-| Rust | rustc 1.33.0 | Warp | 298,769 | 36.47MB | 100% |
-| Rust | rustc 1.33.0 | Actix | 287,908 | 35.15MB | 96.3% |
-| JavaScript | Node 11.10.1 (PM2) | Koa | 82,880 | 12.01MB | 27.7% |
-| JavaScript | Node 11.10.1 (PM2) | Express | 56,349 | 11.55MB | 18.9% |
-| JavaScript | Node 11.10.1 | Koa | 30,016 | 4.35M | 10.0% |
-| JavaScript | Node 11.10.1 | Express | 17,756 | 3.64MB | 5.9% |
+| Language      | Platform/Toolchain | Framework     | LoC | Requests/sec | Transfer/sec | Perf. | 
+|:-------------:|:------------------:|:-------------:|:---:|:------------:|:------------:|---| 
+| Rust | rustc 1.33.0 | Warp | 5 | 298,769 | 36.47MB | 100% |
+| Rust | rustc 1.33.0 | Actix | 10 | 287,908 | 35.15MB | 96.3% |
+| JavaScript | Node 11.10.1 (PM2) | Koa | 9 | 82,880 | 12.01MB | 27.7% |
+| JavaScript | Node 11.10.1 (PM2) | Express | 7 | 56,349 | 11.55MB | 18.9% |
+| JavaScript | Node 11.10.1 | Koa | 9 | 30,016 | 4.35M | 10.0% |
+| JavaScript | Node 11.10.1 | Express | 7 | 17,756 | 3.64MB | 5.9% |
