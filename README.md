@@ -1,3 +1,8 @@
+# Method
+- Everything is benchmarked using [`wrk`](https://github.com/wg/wrk) (4.0.2).
+- Code is formatted using formatting tools default configurations ([`prettier`](https://github.com/prettier/prettier), [`rustfmt`](https://github.com/rust-lang/rustfmt) ...).
+- LoCs are reported by [`tokei`](https://github.com/Aaronepower/tokei), blank lines and comments are ignored. 
+
 ## Hello world
 Best out of 5, bench command: \
 `wrk -t12 -c400 -d10s http://localhost:8080/hello/noob`
