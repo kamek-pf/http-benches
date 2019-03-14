@@ -43,11 +43,11 @@ Best out of 5, bench command: \
 
 |  Language  | Platform/Toolchain | Framework | LoC | Requests/sec | Transfer/sec | Perf. |
 | :--------: | :----------------: | :-------: | :-: | :----------: | :----------: | ----- |
-|    Rust    |    rustc 1.33.0    |   Warp    |  -  |      -       |      -       | -     |
-|    Rust    |    rustc 1.33.0    |   Actix   |  -  |      -       |      -       | -     |
-|     Go     |      Go 1.12       |     -     | 51  |   166,597    |   23.77MB    | -     |
-|  Haskell   |     GHC 8.6.3      |  Scotty   | 22  |   102,412    |   19.14MB    | -     |
-| JavaScript | Node 11.10.1 (PM2) |  Express  | 21  |    42,815    |    9.92MB    | -     |
-| JavaScript | Node 11.10.1 (PM2) |    Koa    | 23  |    40,662    |    6.67MB    | -     |
-| JavaScript |    Node 11.10.1    |    Koa    | 23  |    28,068    |    4.60M     | -     |
-| JavaScript |    Node 11.10.1    |  Express  | 21  |    18,386    |    4.26MB    | -     |
+|    Rust    |    rustc 1.33.0    |   Warp    | 30  |   338,968    |   44.89MB    | 100%  |
+|    Rust    |    rustc 1.33.0    |   Actix   | 39  |   321,699    |   45.41MB    | 94.9% |
+|     Go     |      Go 1.12       |     -     | 51  |   194,672    |   27.48MB    | 57.4% |
+|  Haskell   |     GHC 8.6.3      |  Scotty   | 22  |   102,412    |   19.14MB    | 30.2% |
+| JavaScript | Node 11.10.1 (PM2) |  Express  | 21  |    42,815    |    9.92MB    | 12.6% |
+| JavaScript | Node 11.10.1 (PM2) |    Koa    | 23  |    40,662    |    6.67MB    | 12.0% |
+| JavaScript |    Node 11.10.1    |    Koa    | 23  |    28,068    |    4.60M     | 8.3%  |
+| JavaScript |    Node 11.10.1    |  Express  | 21  |    18,386    |    4.26MB    | 5.4%  |
